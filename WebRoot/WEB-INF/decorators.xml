@@ -1,0 +1,12 @@
+<decorators defaultdir="/decorators">
+	<excludes>
+		<pattern>/includes/*</pattern>
+		<pattern>/40*.jsp</pattern>
+		<pattern>/dwr/*</pattern>
+		<pattern>/login/*.jsp</pattern>
+		<pattern>/json/*.jsp</pattern>
+	</excludes>
+	<decorator name="default" page="default.jsp">
+		<pattern>/*</pattern>
+	</decorator>
+</decorators>
